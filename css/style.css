@@ -1,0 +1,95 @@
+/* 
+  01 COLORS 
+
+    - White: hsl(0, 0%, 100%)
+    - Light gray: hsl(212, 45%, 89%)
+    - Grayish blue: hsl(220, 15%, 55%)
+    - Dark blue: hsl(218, 44%, 22%)
+
+  02 LAYOUT
+
+  The designs were created to the following widths:
+
+  - Mobile: 375px
+  - Desktop: 1440px
+
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 120rem;
+  height: 80rem;
+  padding: 5rem 3rem;
+  margin: 0 auto;
+}
+
+.qrcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 32rem;
+  height: 50rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 2.5rem 0 rgba(0, 0, 0, 0.158);
+}
+
+.qrcode-image {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.qrcode-title {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 2.3rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+.qrcode-info {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

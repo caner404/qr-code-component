@@ -1,0 +1,18 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .container {
+    max-width: 34em;
+  }
+
+  .qrcode {
+    margin: 0 1em;
+  }
+
+  .attribution {
+    display: flex;
+    flex-direction: column;
+  }
+}
